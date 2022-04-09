@@ -1,0 +1,32 @@
+package com.samples.javademos.demo1;
+
+public class Operatorsdemo5 {
+	
+	public static void main(String[] args)
+	{
+		int result=1+2;
+		result=result*10;
+		int remainder=result%4;
+		System.out.println(remainder);
+		result++;
+		System.out.println(result);
+		result--;
+		System.out.println(result);
+		result+=2;
+		System.out.println(result);
+		result/=3;
+		System.out.println(result);
+		
+		boolean mytemp=true;
+		if(mytemp)
+		{
+			System.out.println("Yes");
+		}
+		int topscore=100;
+		if(topscore==100)
+			System.out.println("High score");
+		if(topscore=100)
+			System.out.println("High score");
+	}
+
+}

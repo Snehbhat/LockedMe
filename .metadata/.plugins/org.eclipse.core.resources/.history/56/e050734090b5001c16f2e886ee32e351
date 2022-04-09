@@ -1,0 +1,19 @@
+package com.samples.javademos.demo1;
+
+public class Methodsdemo6 {
+	
+	public static void main(String[] args)
+	{
+		String playerName="John";
+		int score=800;
+		int levelcompleted=5;
+		int bonus=100;
+		boolean gameover=true;
+		if(gameover)
+		{
+			int finalscore= score+levelcompleted*100;
+			System.out.println("Player " + playerName + ",your final score is " + finalscore);
+		}
+	}
+
+}

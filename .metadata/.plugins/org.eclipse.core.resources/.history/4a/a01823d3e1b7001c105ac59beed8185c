@@ -1,0 +1,21 @@
+package com.javasamples.oop;
+
+public class Classdemo1 {
+
+	public static void main(String[] args) {
+		
+		Car hondacity= new Car();
+		
+		hondacity.color="Red";
+		hondacity.geartype="Automatic";
+		hondacity.noofwheels=4;
+		hondacity.fueltype="Petrol";
+		
+		Car marutiswift= new Car();
+		marutiswift.color="Red";
+		marutiswift.geartype="Automatic";
+		marutiswift.noofwheels=4;
+		marutiswift.fueltype="Petrol";
+	}
+	
+}
